@@ -1,12 +1,12 @@
 # Struktur Data
 
-This repository contains various data structure implementations and examples in different programming languages.
+This repository contains various data structure implementations and examples in Java.
 
 ## Table of Contents
 
 - [Introduction](#introduction)
+- [Project Structure](#project-structure)
 - [Data Structures](#data-structures)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
@@ -15,35 +15,35 @@ This repository contains various data structure implementations and examples in 
 
 This project aims to provide a comprehensive collection of data structures, including their implementations and usage examples. It is intended for educational purposes and to serve as a reference for developers.
 
+## Project Structure
+
+The project is organized into the following directories:
+
+- `Diskusi/`: Contains discussion examples.
+- `Learn/`: Contains learning examples for various data structures and concepts.
+- `Tugas/`: Contains assignment examples.
+
 ## Data Structures
 
 The following data structures are included in this repository:
 
 - Arrays
 - Linked Lists
-- Stacks
-- Queues
-- Trees
-- Graphs
-- Hash Tables
-- Heaps
-
-## Installation
-
-To use the code in this repository, clone it to your local machine using the following command:
-
-```sh
-git clone https://github.com/yourusername/struktur-data.git
-```
+- Booleans
+- Characters
+- Floating Points
+- Integers
+- Strings
 
 ## Usage
 
 Each data structure has its own directory containing the implementation and example usage. Navigate to the respective directory to find the relevant files.
 
-## Contributing
+### Example
 
-Contributions are welcome! Please read the [contributing guidelines](CONTRIBUTING.md) before submitting a pull request.
+To run an example, navigate to the directory and execute the Java file. For example, to run the `LearnBoolean` example:
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+```sh
+cd Learn
+javac [LearnBoolean.java](http://_vscodecontentref_/1)
+java LearnBoolean
