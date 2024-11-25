@@ -1,3 +1,5 @@
+package Tugas1;
+
 import java.util.LinkedList;
 
 public class Tugas1 {
