@@ -13,7 +13,7 @@ public class MergeSort {
             L[i] = array[left + i];
         for (int j = 0; j < n2; ++j)
             R[j] = array[mid + 1 + j];
-
+            
         int i = 0, j = 0;
         int k = left;
         while (i < n1 && j < n2) {
